@@ -298,7 +298,7 @@ def dataPreprocessing(data,model_type=None):
                 else:
                     data_new.loc[:,'product_type'].values[i]='Investment'
 
-        data_new=one_hot_encoding(data_new)
+    data_new=one_hot_encoding(data_new)
     #print(data_new.loc[:,['product_type_Investment','product_type_OwnerOccupier']])
     data_new.drop(['year', 'timestamp'], 1, inplace=True)
 
