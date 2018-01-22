@@ -12,7 +12,7 @@
   trianed on training dataset with feature engineering and get the combined predicitons for both Investment 
   and OwnerOccupier house prices. The final model is linear combination of these three outputs with suitable weights.
   
-- Public: 0.31137, Private: 0.30882
+- Private: 0.31137, Public: 0.30882
 
 
 
